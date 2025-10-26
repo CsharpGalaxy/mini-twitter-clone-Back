@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("41b95a5b-b8d6-455f-aad8-70813f04cf23")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("IDP.Service.Api")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5af09296ff226fb8d05c75c54ac10b352d6097e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("IDP.Service.Api")]
