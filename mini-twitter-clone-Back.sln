@@ -13,6 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDP.Service", "IDP.Service"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Service.Api", "src\Services\IDP.Service\IDP.Service.Api\IDP.Service.Api.csproj", "{A7F627D7-C758-4216-88E9-0F05E65672A6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DockerCompose", "DockerCompose", "{8183B103-F0B1-4C00-A4E1-9947F18A1DD2}"
+	ProjectSection(SolutionItems) = preProject
+		dockercompose.yml = dockercompose.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +37,7 @@ Global
 		{82EF556A-2BA0-4736-A3ED-62852ABC8976} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{45429BBB-ED6D-4C89-A4F6-EA45D9740C1E} = {091D99B8-C810-40B0-A5A3-4F2955272B10}
 		{A7F627D7-C758-4216-88E9-0F05E65672A6} = {45429BBB-ED6D-4C89-A4F6-EA45D9740C1E}
+		{8183B103-F0B1-4C00-A4E1-9947F18A1DD2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98148873-AC80-458F-ACBD-AA8CB404911E}
